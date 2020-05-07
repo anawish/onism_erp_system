@@ -1,0 +1,463 @@
+body{
+	background-color: white;
+}
+.current{
+    background-color: red;
+}
+.logo-img{
+	width: 292px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}
+#email{
+	border-radius: 40px;
+	border-radius: 15px;
+
+}
+#password{
+	border-radius: 40px;
+	border-radius: 15px;
+}
+h1{
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 15px;
+    margin-right: 15px
+} 
+h1:before,
+h1:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid #898888; 
+    margin: auto; 
+}
+span{ 
+    font-size: 15px;
+    color: #a6a4a4;
+}
+.account{
+	font-size: 15px;
+	color: black;
+	font-family: sans-serif sans;
+}
+a{
+	color: #3FC0C2;
+}
+#forget{
+	float: right;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #29bb9c;
+
+}
+#login-btn{
+	height: 45px;
+    width: 310px;
+    background-color: #29bb9c;
+    border: navajowhite;
+    color: white;
+    font-size: 18px;
+}
+#sign-up{
+	float: right;
+    margin-right: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #29bb9c;
+}
+#customer-login{
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #29bb9c;
+}
+.mt-60{
+    margin-top: 60px;
+}
+.navbar-light img{
+    width: 165px;
+    height: 40px;
+}
+.notify img{
+    width: 30px !important;
+    height: 30px !important;
+    margin-right: 20px;
+}
+.msg img{
+    width: 30px !important;
+    height: 25px !important;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.pos{
+    margin-left: 20px;
+}
+.pos button{
+    border-radius: 20px;
+    background-color: #29bb9c !important;
+    border: none;
+}
+.search{
+    margin-left: 20px;
+}
+.search input{
+    width: 400px;
+    border-radius: 20px;
+}
+.company_name{
+    color: #000000 !important;
+    font-size: 14px;
+    font-weight: 600;
+    margin-right: 12px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-height: auto;
+    background-color: white;
+    box-shadow:  2px 3px 3px rgb(142, 124, 124);
+}
+.side_bar a{
+    box-shadow:  2px 3px 3px rgb(142, 124, 124);
+    border-radius: 5px 70px 70px 5px; 
+    border: 1.2px solid  #4fc7ad; 
+    margin-top: 7px; color: black; 
+    font-size: 18px; 
+    width: 98%;
+}
+.mt-27{
+    margin-top: -27px !important;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.px-5{
+    padding: 5px 22px;
+}
+.ml-17{
+    margin-left: 17px !important;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-29{
+    margin-top: 29px;
+}
+.ti-calendar img{
+    width: 34px !important;
+}
+.shapeborder { 
+    border:10px solid #29bb9c;
+}
+.circle { 
+    border-radius: 50%; 
+}
+
+.outer {
+    background-color:#29bb9c;
+    width:265px;
+    height:250px;
+    position:relative;
+    margin-top: 30px;
+
+}
+.inner_shapeborder{
+     border:4px solid #29bb9c;
+}
+.inner {
+    background-color:white;
+    top: 3%; left:3%;
+    width:94%;
+    height:94%;
+    position: relative;
+}
+.circle_card{
+    box-shadow: #29bb9c 0px 0px 1px 2px;
+    margin-top: 35px; 
+    height: 420px;
+}
+._circle_header{
+    color: white;
+    font-size: 19px;
+    border: none;
+}
+.card-header{
+    background-color: #29bb9c !important;
+}
+._circle_footer{
+    background-color: #1c8ce6;
+}
+.mt-35{
+    margin-top: 35px;
+}
+.mt-57{
+    margin-top: 57px;
+}
+.incom span{
+    font-size: 32px;
+    font-weight: 600;
+    font-family: serif;
+    color: black;
+}
+.sidebar-img img{
+    width: 25px !important; 
+    margin-left: 20px;
+    margin-right: 15px;
+}
+._card{
+    box-shadow:  2px 2px 2px 2px rgb(142, 124, 124);
+    background-color: #29bb9c !important;
+    height: 130px;
+}
+
+.content_color{
+    color: white;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.card-title{
+    color: white;
+}
+.graph_card{
+    box-shadow:  2px 2px 2px 2px rgb(142, 124, 124);
+    margin-top: 35px; 
+    height: 480px;
+}
+.graph_content{
+    font-size: 16px; 
+    font-family: sans-serif;
+}
+.bg_listgroup{
+    background-color: white; 
+    border:none;
+}
+.graph_footer{
+    margin-top: -20px;
+}
+.list_item{
+    color: #0e0e0e !important;
+}
+.total_income{
+    color: #aecef4 !important;
+}
+.total_expense{
+    color: #5fb4aa !important;
+}
+.today_profit{
+    color: #26c2d4 !important;
+}
+.today_revenue{
+    color: #a196e5 !important;
+}
+.bd_r{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.client_search{
+    color: #5d5454;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+}
+.sub_c{
+    background-color: white;
+}
+.col-form-label{
+    color: black;
+}
+.round:hover{
+    background-color: #29bb9c;
+}
+.px-20{
+    padding: 0px 20px;
+}
+._modal-header{
+    background-color: #29bb9c; 
+    color: white;
+}
+.pname{
+    background-color: #29bb9c;
+}
+.qty{
+    width: 50px;
+}
+.rate{
+    width: 20px;
+}
+.dsicount{
+    width: 60px;
+}
+.amount{
+    width: 70px;
+}
+.mx-h{
+    max-height: 37px;
+}
+._mt-10{
+    border:1px solid #29bb9c; 
+    background-color: #29bb9c;
+    border-radius: 10px;
+}
+._card-rounded a{
+    height: 70pt;
+    width: 100%;
+    overflow: hidden;
+}
+._card-rounded img{
+    max-height: 70%;
+    max-width: 90%;
+}
+.p_titel{
+    white-space: pre-wrap;
+}
+.sub_total span{
+    color: black; 
+    margin-top: 5px;
+}
+.on_hold{
+    padding: 10px 40px;
+    font-size: 20px;
+}
+.w-600{
+    width: 600px;
+}
+.w-100{
+    width: 100%;
+}
+.mr{
+    margin: 13px;
+}
+.sale_invoice{
+    background-color: #29bb9c;
+}
+.paid{
+    font-size: 10px;
+}
+.download{
+    font-size: 14px;
+}
+.bill_to{
+    font-size: 18px;
+}
+._newqouta{
+   margin-top: 2px;
+   box-shadow: 2px 2px 2px 2px rgb(142, 124, 124); 
+}
+.theader{
+    background-color: #25b294 !important;
+}
+.tbody{
+    background-color: lightgray;
+}
+.textarea{
+    font-size: 13px;
+}
+.ft-size{
+    font-size: 18px;
+}
+.w-75{
+    width: 75px;
+}
+.shipping{
+    font-size: 15px;
+}
+.w-120{
+    width: 120px;
+}
+.w-50{
+    width: 50px;
+}
+#submit-data{
+    background-color: #29bb9c;
+    border-color: #29bb9c;
+    color: white;
+}
+.check_box {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.check_box input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.check_box:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.check_box input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.check_box input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.check_box .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+ul li a{
+    display: block;
+}
+ul li.active a{
+    background-color: #29bb9c !important;
+    color: white;
+    
+}
+ul li.active a img{
+    background-color: white !important;
+    border-right: 5px;
+}
